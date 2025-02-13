@@ -18,10 +18,9 @@ class StartupView extends StackedView<StartupViewModel> {
     return Scaffold(
       body: Center(
         child: Lottie.asset(
-        "assets/splashScreen.json",
-        // Can add other properties on how you would like the anim to display
+          "assets/splashScreen.json",
+        ),
       ),
-    ),
     );
   }
 
